@@ -35,3 +35,15 @@ sudo chmod a+x stego-toolkit/install/*.sh && for i in stego-toolkit/install/*.sh
 
 ## Wine Install	
 sudo apt-get install gcc-9-base libasan5 libgcc-9-dev libgcc-8-dev wine32 -y
+
+##Sherlock Install
+cd ~\tools
+
+# clone the repo
+git clone https://github.com/sherlock-project/sherlock.git
+# change the working directory to sherlock
+cd sherlock
+# install the requirements
+python3 -m pip install -r requirements.txt
+#change Directory Back to tools
+cd ~\tools
