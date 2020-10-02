@@ -36,7 +36,10 @@ sudo chmod a+x stego-toolkit/install/*.sh && for i in stego-toolkit/install/*.sh
 ## Wine Install	
 sudo apt-get install gcc-9-base libasan5 libgcc-9-dev libgcc-8-dev wine32 -y
 
-##Sherlock Install
+## Pip Insatll
+sudo apt install python3-pip -y
+
+## Sherlock Install
 cd ~\tools
 
 # clone the repo
