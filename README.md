@@ -22,4 +22,6 @@ Pull git repos to tool directory
   
   stego toolkit
 
+  Sherlock - osint for usernames
+
 Wine install
